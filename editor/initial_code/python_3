@@ -1,0 +1,9 @@
+def fast_train(sections):
+    return 0
+
+if __name__ == '__main__':
+    assert fast_train([(4, 3)]) == 3, 'basic'
+    assert fast_train([(9, 10)]) == 5, '1 section'
+    assert fast_train([(5, 5), (4, 2)]) == 6, '2 section'
+    print("Coding complete? Click 'Check' to earn cool rewards!")
+

@@ -1,0 +1,60 @@
+
+<p>
+You are planning the service of the train.
+You want to know the minimum time between stations.
+</p>
+<p>
+Each section of the rail between stations is given in the list.
+Each section is a tuple of distance and speed limit.
+You can change speed ( +1. -1 and &plusmn; 0 ) at start and every minute.
+The train runs by the same amount as the speed value.
+</p>
+
+<ul>
+    <li>Starting speed is 0.</li>
+    <li>Speed Limit is set for each section of the rail.
+        You don't exceed this.</li>
+    <li>You must reach the target station at speed 1.(Because it is necessary to stop at the station)
+</ul>
+
+<p>
+You should return the minimum time (minutes) as an integer.
+</p>
+
+<div class="for_info_only">
+    <p><strong>Example:</strong></p>
+<pre class="brush: python">
+fast_train([(4, 3)]) == 3 # (1, 2, 1)
+fast_train([(9, 5)]) == 5 # (1, 2, 3, 2, 1)
+fast_train([(5, 5), (4, 2)]) == 6 # e.g. (1, 2, 2, 2, 1, 1)
+</pre>
+<!--
+<p style="text-align: left;">
+    <img  title="example" src="{{MEDIA}}barcode_example.png" alt="example" style="max-height: 244px"/>
+</p>
+-->
+</div>
+
+<p><strong>Input: </strong>
+List of the section of the rail. Each section is tuple of distance and speed limit. 
+</p>
+
+<p><strong>Output: </strong>The minimum time (minutes) as an integer.
+</p>
+
+
+<!--
+<p>
+<strong>How it is used:</strong><br>
+understand the mechanism of a barcode.
+</p>
+-->
+
+<p>
+<strong>Precondition:</strong><br>
+<ul>
+    <li>all(distance) &gt; 0</li>
+    <li>all(speed  &gt; 0)</li>
+    <li>len(section) &gt; 0</li>
+</ul>
+</p>
