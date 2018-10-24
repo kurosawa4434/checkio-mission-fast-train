@@ -55,7 +55,7 @@ requirejs(['ext_editor_io', 'jquery_190', 'raphael_210'],
                         'font-family': 'robot', 
                         'fill': '#006CA9',
                         'stroke-width': 0,
-                        'text-anchor': 'start',
+                        'text-anchor': 'middle',
                     },
                 },
                 circle: {
