@@ -12,22 +12,22 @@ TESTS = {
         {
             "input": [(4, 3)],
             "answer": 3,
-            "explanation": 'basic',
+            "explanation": [1, 2, 1],
         },
         {
             "input": [(9, 7)],
             "answer": 5,
-            "explanation": '1 section',
+            "explanation": [1, 2, 3, 2, 1],
         },
         {
             "input": [(5, 5), (4, 2)],
             "answer": 6,
-            "explanation": '2 sections',
+            "explanation": [1, 2, 2, 2, 1, 1],
         },
         {
             "input": [(5, 5,), (4, 2), (6, 3)],
             "answer": 8,
-            "explanation": '3 sections',
+            "explanation": [1, 2, 2, 2, 2, 3, 2, 1],
         },
     ],
 }
