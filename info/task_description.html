@@ -1,20 +1,19 @@
 
 <p>
-You are planning the service of the train.
-You want to know the minimum time between stations.
+You are planning the train schedule and you want to know the minimum time between the stations.
 </p>
 <p>
 Each section of the rail between stations is given in the list.
-Each section is a tuple of distance and speed limit (Both are integers).
-You can change speed ( +1. -1 and &plusmn; 0 ) at start and every minute.
+Each section is a tuple of distance and speed limit (both are integers).
+You can change the speed ( +1. -1 and &plusmn; 0 ) at the start and every minute after that.
 The train runs by the same amount as the speed value.
 </p>
 
 <ul>
     <li>Starting speed is 0.</li>
     <li>Speed limit is set for each section of the rail.
-        You don't exceed this.</li>
-    <li>You must reach the target station at speed 1.(Because it is necessary to stop at the station)
+        You don't exceed it.</li>
+    <li>You must reach the target station at speed 1 (because it’s necessary to stop at the station).
 </ul>
 
 <p>
@@ -35,7 +34,7 @@ fast_train([(5, 5), (4, 2)]) == 6 # e.g. (1, 2, 2, 2, 1, 1)
 </div>
 
 <p><strong>Input: </strong>
-List of the section of the rail. Each section is tuple of distance (as an integer) and speed limit (as an integer). 
+List of the section of the rail. Each section is a tuple of distance (as an integer) and speed limit (as an integer). 
 </p>
 
 <p><strong>Output: </strong>The minimum time (minutes) as an integer.
@@ -45,7 +44,7 @@ List of the section of the rail. Each section is tuple of distance (as an intege
 <!--
 <p>
 <strong>How it is used:</strong><br>
-understand the mechanism of a barcode.
+To understand the mechanism of a barcode.
 </p>
 -->
 
@@ -57,3 +56,5 @@ understand the mechanism of a barcode.
     <li>len(section) &gt; 0</li>
 </ul>
 </p>
+
+
