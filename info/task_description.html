@@ -6,7 +6,9 @@ You are planning the train schedule and you want to know the minimum time betwee
 Each section of the rail between stations is given in the list.
 Each section is a tuple of distance and speed limit (both are integers).
 You can change the speed ( +1. -1 and &plusmn; 0 ) at the start and every minute after that.
-The train runs by the same amount as the speed value.
+The train runs by the same amount as the speed value in a minute.
+<br>
+Note: This means that a train with a speed of 2 will travel a distanse of 2 before another minute passes and its speed can be changed again.
 </p>
 
 <ul>
@@ -41,12 +43,10 @@ List of the section of the rail. Each section is a tuple of distance (as an inte
 </p>
 
 
-<!--
 <p>
 <strong>How it is used:</strong><br>
-To understand the mechanism of a barcode.
+For efficient acceleration and deceleration.
 </p>
--->
 
 <p>
 <strong>Precondition:</strong><br>
