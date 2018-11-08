@@ -28,15 +28,18 @@ You should return the minimum time (minutes) as an integer.
 
 <div class="for_info_only">
     <p><strong>Example:</strong></p>
-<pre class="brush: python">
 {% if interpreter.slug == "js-node" %}
+<pre class="brush: javascript">
 fastTrain([[4, 3]]) == 3 // (1, 2, 1)
 fastTrain([[9, 5]]) == 5 // (1, 2, 3, 2, 1)
 fastTrain([[5, 5], [4, 2]]) == 6 // e.g. (1, 2, 2, 2, 1, 1)
+</pre>
 {% else %}
+<pre class="brush: python">
 fast_train([(4, 3)]) == 3 # (1, 2, 1)
 fast_train([(9, 5)]) == 5 # (1, 2, 3, 2, 1)
 fast_train([(5, 5), (4, 2)]) == 6 # e.g. (1, 2, 2, 2, 1, 1)
+</pre>
 {% endif %}
 </pre>
 </div>
