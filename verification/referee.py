@@ -39,6 +39,6 @@ api.add_listener(
         tests=TESTS,
         function_name={
             "python": "fast_train",
-            "js": "fastTran"
+            "js": "fastTrain"
         },
     ).on_ready)
