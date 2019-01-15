@@ -1,3 +1,5 @@
+"use strict";
+
 function fastTrain(numbers) {
     return 0; 
 }
