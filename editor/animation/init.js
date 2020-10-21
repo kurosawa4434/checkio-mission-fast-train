@@ -216,7 +216,7 @@ requirejs(['ext_editor_io', 'jquery_190', 'raphael_210'],
         var io = new extIO({
             multipleArguments: false,
             functions: {
-                js: 'fastTran',
+                js: 'fastTrain',
                 python: 'fast_train'
             },
             animation: function($expl, data){
